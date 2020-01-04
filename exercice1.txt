@@ -1,0 +1,17 @@
+Exercice 1 :
+La documentation du code est particulièrement utile lors des évolutions et de la maintenance du code. C# propose un mécanisme simple pour insérer dans le code des commentaires de documentation qui seront traités pour réaliser une documentation technique.
+
+Ces commentaires de documentation sont préfixés par ///
+
+Ces commentaires sont saisis avant la déclaration des entités de type namespace, classe, interface, champ, propriété, méthode, ou événement.
+
+Ces commentaires peuvent utiliser des tags XML pour caractériser certaines informations. Ces tags seront repris dans un document XML peut être généré à la demande par le compilateur. Il est donc important que les commentaires de documentation saisis respectent le standard XML.
+
+Ce fichier XML peut ensuite être traité pour par exemple produire des pages HTML grâce à une feuille de style XSLT.
+
+Microsoft a défini une liste de tags particuliers recommandés mais il est tout à fait possible d'utiliser ces propres tags.
+
+ 
+1-2 :
+D'autres outils de génération :
+javadoc,doxygen,gitbook,readthedoc...
